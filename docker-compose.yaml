@@ -57,6 +57,7 @@ services:
       OAUTH2_PROXY_SET_XAUTHREQUEST: "true"
       OAUTH2_PROXY_REVERSE_PROXY: "true"
       OAUTH2_PROXY_SKIP_PROVIDER_BUTTON: "true"
+      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
       OAUTH2_PROXY_AUTHENTICATED_EMAILS_FILE: /auth-emails
 
     restart: unless-stopped
